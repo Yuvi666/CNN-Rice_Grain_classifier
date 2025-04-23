@@ -1,0 +1,22 @@
+Pseudocode for Rice Classifier
+
+1. Train the Model (train.py):
+    - Load rice grain dataset
+    - Preprocess images (resize, normalize)
+    - Define CNN model architecture
+    - Train and save model as rice_classifier.h5
+
+2. Evaluate the Model (evaluate.py):
+    - Load the saved model
+    - Run evaluation on validation/test set
+    - Print accuracy and metrics
+
+3. Run the Application (main.py):
+    - Set up necessary configs or functions
+
+4. Streamlit UI (app.py):
+    - Load rice_classifier.h5
+    - Upload rice grain image
+    - Resize and preprocess image
+    - Predict rice type
+    - Display result on the web UI
